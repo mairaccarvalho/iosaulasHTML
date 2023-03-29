@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>aula 06 </title>
+</head>
+<body style="background-color: slategrey;">
+    <header>
+        <h1 style="background-color: cadetblue; ">Lugares Para Viajar</h1>
+        <hr>
+        <br>
+    </header>
+   
+    <form method="post" id="fcontato" action= mailto:mairacardoso432@gmail.com>
+        <!--label é uma legenda-->
+        <label for="nome">Nome:<span style="color: red;">*</span></label>
+        <input type="text" id="nome" required style="background-color: lightcyan;">
+        <label for="sobrenome" >Sobrenome:<span style="color: red; ">*</span></label>
+        <input type="text" id="snome" style="background-color: lightcyan;" required>
+        <br> <br>
+        <label for="email">Email:<span style="color: red;">*</span></label>
+        <input type="email" name="email" id="email" size="58" placeholder="exemplo.email@ios.org.br" style="background-color: lightcyan;" required>
+        <br>
+<hr>
+        <h3 style="background-color: cadetblue;">Selecione seu Genero:</h3>
+        <input type="radio" name="gn" id="op1">
+        <label for="op1">Masculino</label>
+        <br>
+        <input type="radio" name="gn" id="op2">
+        <label for="op2">Feminino</label>
+        <br>
+        <input type="radio" name="gn" id="op3">
+        <label for="op3">Prefiro não informar</label>
+
+        <h2 style="background-color: cadetblue;">Destino:</h2>
+        <input type="radio" name="tipo" id="int">
+        <label for="int"> Internacional</label>
+        
+        <br>
+        <input type="radio" name="tipo" id="nac">
+        <label for="nac">Nacional</label>
+        
+        <hr>
+        <h3 style="background-color: cadetblue;">Metodo da viajem:</h3>
+        <input type="radio" name="metodo" id="int" >
+        <label for="int">Avião</label>
+        <br>
+        <input type="radio" name="metodo" id="int" >
+        <label for="int">Cruzeiro</label>
+        <br>
+        <input type="radio" name="metodo" id="int" >
+        <label for="int">Onibus</label>
+        <br>
+        <hr>
+
+        <h3 style="background-color: cadetblue;">Locais:</h3>
+        <input type="checkbox" name="opc" id="opc1">
+        <label for="opc1">América</label>
+        <br>
+        <input type="checkbox" name="opc" id="opc2">
+        <label for="opc2">África</label>
+        <br>
+        <input type="checkbox" name="opc" id="opc3">
+        <label for="opc3">Europa</label>
+        <br>
+        <input type="checkbox" name="opc" id="opc4">
+        <label for="opc4">Oceania</label>
+        <br>
+        <input type="checkbox" name="opc" id="opc5">
+        <label for="opc5">Ásia</label>
+
+        <h2 style="background-color: cadetblue;" required >Formas de Pagamento</h2>
+        <select name="Fpagamento" id="Fpagamento" style="background-color: lightcyan;">
+           <option value="fp0" disabled selected > Selecione uma opção</option>
+            <option value="fp1">Cartao Debito</option>
+            <option value="fp2">Cartao Credito</option>
+            <option value="fp3">Pix</option>
+            <option value="fp4">Cheque</option>
+            <option value="fp5">Boleto</option>
+        </select>
+
+        <h3 style="background-color: cadetblue;">Sua cidade</h3>
+        <label for="cCid" >Escolha a sua cidade na lista</label>
+        <input autocomplete="on" list="cidade" name="tcid" id="cCid" placeholder="Sua Cidade" style="background-color: lightcyan;">
+        <datalist id="cidade">
+            <option value="São Paulo"></option>
+            <option value="Campinas"></option>
+            <option value="Santos"></option>
+            <option value="Santo Andre"></option>
+            <option value="Osasco"></option>
+            <option value="Itaquera"></option>
+            <option value="Rio de Janiro"></option>
+            <option value="Copacabana"></option>
+            <option value="Belo Horizonte"></option>
+        </datalist>
+        <br> <hr>
+        <!-- continuação dia 28/03 -->
+        <label for="senha" >Sua senha:</label>
+        <!-- input type password esconde os caracteres  -->
+        <input type="password" name="senha" id="senhas" style="background-color: lightcyan;">
+
+        <br><br>
+        <input type="range" name="vlr1" id="vlr1">100
+
+        <p>Deixe aqui sua sugestão:</p>
+        <textarea name="sugestão" id="sg1" cols="30" rows="10" placeholder="seu comentario:"></textarea>
+
+        <br><br>
+        <input type="submit" value="Enviar" style="background-color: lightcyan;">
+    </form>
+</body>
+</html>

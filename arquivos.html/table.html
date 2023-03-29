@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header style="background-color: aliceblue;">
+        <h1>Atributos Tabela</h1>
+    </header>
+
+    <table  border="3" style="text-align: center; ">
+        <!-- <tr> (elemento de linha – table row): define nova linha na tabela. -->
+        <thead style="background-color: cornflowerblue;">
+        <tr>
+            <!--  TH define o cabeçalho da tabela, que são as 
+colunas da tabela. (elemento de cabeçalho – table header) -->
+            <th>JOGOS</th> 
+            <th>PREÇO</th> 
+            <th >QUANTIDADE</th>
+        </tr>
+        </thead>
+        <tbody style="background-color: aliceblue;">
+        <tr>
+            <!-- TD define o conteúdo da célula da tabela (elemento de conteúdo – table data)-->
+            <td>Resident Evil 4</td>
+            <td>R$250,00</td>
+            <td style="color: red;">2</td>
+        </tr>
+        <tr>
+            <td>The Sims</td>
+            <td>R$100,00</td>
+            <td style="color: red;">1</td>
+        </tr>
+        <tr>
+            <td>Detroid Become Human</td>
+            <td>R$300,00</td>
+            <td style="color: red;">3</td>
+        </tr>
+        <tr>
+            <td>God Of War</td>
+            <td>R$210,00</td>
+            <td style="color: red;">2</td><p></p>
+        </tr>
+        
+        </tbody>
+
+       <tfoot style="background-color: cornflowerblue">
+        <tr>
+            <td>TOTAL</td>
+            <td colspan="4"> R$860,00</td>
+        </tr>
+        <!-- O atributo rowspan mescla uma ou mais linhas da tabela e o elemento colspan mescla uma ou mais colunas da tabela
+
+        <td rowspan="valor">Conteúdo</td>
+        <td colspan="valor">Conteúdo</td 
+
+        <tr>
+            <td>Janeiro</td>
+            <td>R$100</td>
+            <td rowspan="2">R$50</td>
+        </tr>-->
+       </tfoot>
+    </table>
+</body>
+</html>

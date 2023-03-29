@@ -1,0 +1,16 @@
+body{
+    background-color: bisque;
+    color: brown;
+
+}
+
+h1{
+    background-color: goldenrod;
+    text-align: center;
+    font-size: 60px;
+}
+
+p{
+    background-color: antiquewhite;
+    font-size: 20px;
+}
