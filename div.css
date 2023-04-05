@@ -1,0 +1,51 @@
+div {
+    background-color: antiquewhite;
+    margin: 0 auto;
+    height: 80vh;
+    border: solid 3px brown;
+    text-align: center;
+    width: 500px;
+    padding: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+p {
+    line-height: 200%;
+    font-weight: 100;
+    text-align: justify;
+    text-indent: 40px;
+}
+
+h1 {
+    text-shadow: 2px 4px 5px coral;
+    text-align: center;
+    font-style: italic;
+    background-color: bisque;
+}
+
+h2 {
+    text-shadow: 2px 4px 5px coral;
+    background-color: bisque;
+    text-align: center;
+    font-style: italic;
+}
+
+body{
+    background-color:bisque;
+}
+
+.teste{
+   background-color: blanchedalmond;
+   text-align: left;
+   color: brown;
+
+}
+
+.teste2{
+    background-color: cornsilk;
+    color: brown;
+    font-size: 20px;
+    font-weight: bold;
+}
