@@ -1,0 +1,61 @@
+body{
+    background-color: cornsilk;
+}
+
+h1{
+    text-shadow: 1px 6px 10px;
+    background-color: antiquewhite;
+    color: gray;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2{
+    text-shadow: 2px 6px 10px;
+    text-align: center;
+    background-color: antiquewhite;
+    color: cadetblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: bisque;
+    list-style-type: none;
+    padding: 0; 
+    margin: 0;
+    font-size: 20px;
+    
+}
+
+li{
+    text-shadow: 1px 6px 10px;
+    color: cadetblue;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.paragrafo{
+    background-color: ivory;
+    font-style: oblique;
+}
+
+footer{
+    background-color: antiquewhite;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+p{
+    line-height: 200%;
+    font-weight: 700;
+    text-indent: 0px;
+   
+}
