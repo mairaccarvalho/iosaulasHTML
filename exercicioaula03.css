@@ -1,0 +1,73 @@
+* {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 40px;
+    
+}
+h1 {
+    text-align: center;
+    background-color: lavenderblush;
+    border-bottom: solid 2px black;
+    border-radius: 30px;
+}
+
+body{
+    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/10955913-fundo-de-cor-suave-gradiente-pastel-vibrante-e-suave-definido-para-dispositivos-pc-e-tela-do-smartphone-moderno-fundos-de-cor-pastel-suave-vector-ux-e-ui-design-illustration-vetor.jpg);
+    background-size: 1000px 1100px;
+    background-repeat: no-repeat;
+    background-position: unset;
+    background-attachment: fixed;
+}
+h2 {
+    text-align: center;
+    border-bottom: dashed 2px lavender;
+    background-color: lavenderblush;
+    border-radius: 30px;
+}
+
+#p1 {
+    text-align: center;
+    color: chocolate;
+    background-color: bisque;
+    text-indent: 40px;
+    border-radius: 30px;
+}
+
+article p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+}
+
+figure {
+    border: 2px solid;
+    border-radius: 30px;
+    width: 360px;
+    padding: 20px;
+    margin: auto;
+}
+
+figcaption {
+    text-align: justify;
+    font-size: 15px;
+    background-color: lavenderblush;
+    border: groove rgba(230, 230, 250, 0.418);
+    border-radius: 15px;
+}
+
+#foto {
+    width: 350px;
+    text-align: center;
+}
+
+footer{
+    background-color: lavenderblush;
+    
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    padding: 12px;
+    font-style: italic;
+    text-align: center;
+    
+}
